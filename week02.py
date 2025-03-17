@@ -15,7 +15,7 @@ for i in range(7):
     else:
         print("입력하신 수는 정답보다 작은 수 입니다.")
 
-if win == True:
+if win:
     print("당신이 이겼습니다!")
 else:
     print(f"당신이 졌습니다. 정답은 {rnd} 입니다.")
